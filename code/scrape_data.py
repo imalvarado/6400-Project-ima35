@@ -106,6 +106,41 @@ def add_event_names(df, year):
     return df
 
 
+def clean_event_names(df):
+    new_columns = []
+
+    for colname in list(df.columns):
+        event_name = colname.lower()
+
+        if "portugal" in event_name:
+            new_columns.append("portugal")
+
+        elif "j-bay" in event_name:
+            new_columns.append("j-bay")
+
+        elif "fiji" in event_name:
+            new_columns.append("fiji")
+
+        elif "trestles" in event_name:
+            new_columns.append("trestles")
+
+        elif "rio" in event_name:
+            new_columns.append("rio")
+
+        elif "bali" in event_name:
+            new_columns.append("bali")
+
+        elif "margaret" in event_name:
+            new_columns.append("margaret-river")
+        
+        elif "teahupoo" in event_name or "tahiti" in event_name:
+            new_columns.append("teahupoo")
+
+        else:
+            new_columns.append(colname)
+
+    df.columns = new_columns
+    return df
 
 ###
 
@@ -135,6 +170,9 @@ for year in years:
 
     # change column names to events
     results = add_event_names(results, year)
+
+    # clean event names
+    results = clean_event_names(results)
 
     # save results to csv
     results.to_csv(f"../data/wsl_results_{year}.csv", index=False)
