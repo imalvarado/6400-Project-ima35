@@ -3,526 +3,657 @@ graph [
   node [
     id 0
     label "Kelly Slater"
+    events 10
   ]
   node [
     id 1
     label "Jordy Smith"
+    events 10
   ]
   node [
     id 2
     label "Mick Fanning"
+    events 9
   ]
   node [
     id 3
     label "Dane Reynolds"
+    events 3
   ]
   node [
     id 4
     label "Taj Burrow"
+    events 7
   ]
   node [
     id 5
     label "Bede Durbidge"
+    events 8
   ]
   node [
     id 6
     label "Owen Wright"
+    events 10
   ]
   node [
     id 7
     label "Adrian Buchan"
+    events 10
   ]
   node [
     id 8
     label "Jeremy Flores"
+    events 10
   ]
   node [
     id 9
     label "Adriano de Souza"
+    events 10
   ]
   node [
     id 10
     label "Michel Bourez"
+    events 10
   ]
   node [
     id 11
     label "Damien Hobgood"
+    events 4
   ]
   node [
     id 12
     label "Jadson Andre"
+    events 8
   ]
   node [
     id 13
     label "Kieren Perrow"
+    events 4
   ]
   node [
     id 14
     label "Chris Davidson"
+    events 2
   ]
   node [
     id 15
     label "C.J. Hobgood"
+    events 6
   ]
   node [
     id 16
     label "Taylor Knox"
+    events 3
   ]
   node [
     id 17
     label "Andy Irons"
+    events 1
   ]
   node [
     id 18
     label "Freddy Patacchia Jr."
+    events 6
   ]
   node [
     id 19
     label "Bobby Martinez"
+    events 2
   ]
   node [
     id 20
     label "Tiago Pires"
+    events 5
   ]
   node [
     id 21
     label "Patrick Gudauskas"
+    events 5
   ]
   node [
     id 22
     label "Brett Simpson"
+    events 7
   ]
   node [
     id 23
     label "Matt Wilkinson"
+    events 9
   ]
   node [
     id 24
     label "Joel Parkinson"
+    events 9
   ]
   node [
     id 25
     label "Dusty Payne"
+    events 7
   ]
   node [
     id 26
     label "Adam Melling"
+    events 7
   ]
   node [
     id 27
     label "Daniel Ross"
+    events 2
   ]
   node [
     id 28
     label "Kai Otton"
+    events 7
   ]
   node [
     id 29
     label "Tom Whitaker"
+    events 2
   ]
   node [
     id 30
     label "Luke Stedman"
+    events 1
   ]
   node [
     id 31
     label "Roy Powers"
+    events 1
   ]
   node [
     id 32
     label "Luke Munro"
+    events 1
   ]
   node [
     id 33
     label "Dean Morrison"
+    events 1
   ]
   node [
     id 34
     label "Gabe Kling"
+    events 2
   ]
   node [
     id 35
     label "Neco Padaratz"
+    events 1
   ]
   node [
     id 36
     label "Kekoa Bacalso"
+    events 1
   ]
   node [
     id 37
     label "Ben Dunn"
+    events 1
   ]
   node [
     id 38
     label "Tanner Gudauskas"
+    events 2
   ]
   node [
     id 39
     label "Nathan Yeomans"
+    events 1
   ]
   node [
     id 40
     label "Jay Thompson"
+    events 1
   ]
   node [
     id 41
     label "Marco Polo"
+    events 1
   ]
   node [
     id 42
     label "Drew Courtney"
+    events 1
   ]
   node [
     id 43
     label "Mick Campbell"
+    events 1
   ]
   node [
     id 44
     label "Blake Thornton"
+    events 1
   ]
   node [
     id 45
     label "Joan Duru"
+    events 5
   ]
   node [
     id 46
     label "Tim Reyes"
+    events 1
   ]
   node [
     id 47
     label "Josh Kerr"
+    events 7
   ]
   node [
     id 48
     label "Julian Wilson"
+    events 9
   ]
   node [
     id 49
     label "Alejo Muniz"
+    events 7
   ]
   node [
     id 50
     label "Gabriel Medina"
+    events 9
   ]
   node [
     id 51
     label "Heitor Alves"
+    events 3
   ]
   node [
     id 52
     label "Raoni Monteiro"
+    events 4
   ]
   node [
     id 53
     label "Travis Logie"
+    events 4
   ]
   node [
     id 54
     label "John John Florence"
+    events 9
   ]
   node [
     id 55
     label "Miguel Pupo"
+    events 8
   ]
   node [
     id 56
     label "Cory Lopez"
+    events 1
   ]
   node [
     id 57
     label "Kolohe Andino"
+    events 8
   ]
   node [
     id 58
     label "Yadin Nicol"
+    events 2
   ]
   node [
     id 59
     label "Willian Cardoso"
+    events 4
   ]
   node [
     id 60
     label "Nat Young"
+    events 5
   ]
   node [
     id 61
     label "Filipe Toledo"
+    events 7
   ]
   node [
     id 62
     label "Sebastian Zietz"
+    events 7
   ]
   node [
     id 63
     label "Glenn Hall"
+    events 3
   ]
   node [
     id 64
     label "Aritz Aranburu"
+    events 3
   ]
   node [
     id 65
     label "Dion Atkinson"
+    events 1
   ]
   node [
     id 66
     label "Mitch Crews"
+    events 1
   ]
   node [
     id 67
     label "Mitch Coleborn"
+    events 1
   ]
   node [
     id 68
     label "Italo Ferreira"
+    events 5
   ]
   node [
     id 69
     label "Wiggolly Dantas"
+    events 4
   ]
   node [
     id 70
     label "Keanu Asing"
+    events 4
   ]
   node [
     id 71
     label "Ricardo Christie"
+    events 2
   ]
   node [
     id 72
     label "Matt Banting"
+    events 2
   ]
   node [
     id 73
     label "Mason Ho"
+    events 3
   ]
   node [
     id 74
     label "Vasco Ribeiro"
+    events 4
   ]
   node [
     id 75
     label "Jay Davies"
+    events 1
   ]
   node [
     id 76
     label "Frederico Morais"
+    events 5
   ]
   node [
     id 77
     label "Bruno Santos"
+    events 2
   ]
   node [
     id 78
     label "Tomas Hermes"
+    events 2
   ]
   node [
     id 79
     label "Caio Ibelli"
+    events 5
   ]
   node [
     id 80
     label "Maxime Huscenot"
+    events 1
   ]
   node [
     id 81
     label "Jamie O'Brien"
+    events 1
   ]
   node [
     id 82
     label "Garrett Parkes"
+    events 1
   ]
   node [
     id 83
     label "Inia Nakalevu"
+    events 1
   ]
   node [
     id 84
     label "Aca Ravulo"
+    events 1
   ]
   node [
     id 85
     label "Joe Van Dijk"
+    events 1
   ]
   node [
     id 86
     label "Conner Coffin"
+    events 4
   ]
   node [
     id 87
     label "Stuart Kennedy"
+    events 2
   ]
   node [
     id 88
     label "Kanoa Igarashi"
+    events 4
   ]
   node [
     id 89
     label "Davey Cathels"
+    events 1
   ]
   node [
     id 90
     label "Jack Freestone"
+    events 3
   ]
   node [
     id 91
     label "Ryan Callinan"
+    events 3
   ]
   node [
     id 92
     label "Alex Ribeiro"
+    events 1
   ]
   node [
     id 93
     label "Leonardo Fioravanti"
+    events 4
   ]
   node [
     id 94
     label "Mikey Wright"
+    events 4
   ]
   node [
     id 95
     label "Deivid Silva"
+    events 2
   ]
   node [
     id 96
     label "Lucas Silveira"
+    events 1
   ]
   node [
     id 97
     label "Marco Fernandez"
+    events 1
   ]
   node [
     id 98
     label "Bino Lopes"
+    events 2
   ]
   node [
     id 99
     label "Connor O'Leary"
+    events 2
   ]
   node [
     id 100
     label "Ian Gouveia"
+    events 2
   ]
   node [
     id 101
     label "Ezekiel Lau"
+    events 3
   ]
   node [
     id 102
     label "Ethan Ewing"
+    events 1
   ]
   node [
     id 103
     label "Yago Dora"
+    events 3
   ]
   node [
     id 104
     label "Marc Lacomare"
+    events 2
   ]
   node [
     id 105
     label "Jesse Mendes"
+    events 3
   ]
   node [
     id 106
     label "Hiroto Ohhara"
+    events 1
   ]
   node [
     id 107
     label "Jacob Willcox"
+    events 2
   ]
   node [
     id 108
     label "Evan Geiselman"
+    events 1
   ]
   node [
     id 109
     label "Michael February"
+    events 3
   ]
   node [
     id 110
     label "Tevita Gukilau"
+    events 1
   ]
   node [
     id 111
     label "Wade Carmichael"
+    events 2
   ]
   node [
     id 112
     label "Michael Rodrigues"
+    events 2
   ]
   node [
     id 113
     label "Griffin Colapinto"
+    events 2
   ]
   node [
     id 114
     label "Jack Robinson"
+    events 2
   ]
   node [
     id 115
     label "Kael Walsh"
+    events 1
   ]
   node [
     id 116
     label "Tikanui Smith"
+    events 1
   ]
   node [
     id 117
     label "Seth Moniz"
+    events 2
   ]
   node [
     id 118
     label "David Delroy-Carr"
+    events 1
   ]
   node [
     id 119
     label "Oney Anwar"
+    events 1
   ]
   node [
     id 120
     label "Jorgann Couzinet"
+    events 2
   ]
   node [
     id 121
     label "Miguel Blanco"
+    events 2
   ]
   node [
     id 122
     label "Peterson Crisanto"
+    events 1
   ]
   node [
     id 123
     label "Soli Bailey"
+    events 1
   ]
   node [
     id 124
     label "Reef Heazlewood"
+    events 1
   ]
   node [
     id 125
     label "Kauli Vaast"
+    events 1
   ]
   node [
     id 126
     label "Crosby Colapinto"
+    events 1
   ]
   node [
     id 127
     label "Mateus Herdy"
+    events 1
   ]
   node [
     id 128
     label "Krystian Kymerson"
+    events 1
   ]
   node [
     id 129
     label "Billy Kemper"
+    events 1
   ]
   node [
     id 130
     label "Jett Schilling"
+    events 1
   ]
   edge [
     source 0
