@@ -114,13 +114,13 @@ window.Quarto = {
 
 <p><span class="math inline">\(\lambda_\omega(j) = \sum_{i \in N}\omega (j,i)\)</span></p>
 <p><span class="math inline">\(\beta_i(\omega) = \sum_{j \in N}\dfrac{\omega(j,i)}{\lambda_\omega(j)}\)</span></p>
-<div id="685f7a0e" class="cell" data-execution_count="1">
+<div id="89f35f56" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">"./data/tables/top_10_overall.csv"</span>)</span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="6">
+<div class="cell-output cell-output-display" data-execution_count="1">
 <div>
 
 
@@ -237,6 +237,134 @@ window.Quarto = {
 <td>75</td>
 <td>9.573333</td>
 <td>23.976769</td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div id="10c7c73b" class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(<span class="st">"./data/tables/top_10_filtered.csv"</span>)</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>df</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="2">
+<div>
+
+
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<thead>
+<tr class="header">
+<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">Rank</th>
+<th data-quarto-table-cell-role="th">Surfer</th>
+<th data-quarto-table-cell-role="th">In-degree</th>
+<th data-quarto-table-cell-role="th">Num. Seasons</th>
+<th data-quarto-table-cell-role="th">Num. Events</th>
+<th data-quarto-table-cell-role="th">Degree per Event</th>
+<th data-quarto-table-cell-role="th">Beta</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">0</td>
+<td>1</td>
+<td>Gabriel Medina</td>
+<td>367</td>
+<td>9</td>
+<td>92</td>
+<td>3.989130</td>
+<td>43.967720</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">1</td>
+<td>2</td>
+<td>Mick Fanning</td>
+<td>272</td>
+<td>9</td>
+<td>81</td>
+<td>3.358025</td>
+<td>36.093910</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">2</td>
+<td>3</td>
+<td>Kelly Slater</td>
+<td>201</td>
+<td>10</td>
+<td>105</td>
+<td>1.914286</td>
+<td>21.182387</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">3</td>
+<td>4</td>
+<td>Joel Parkinson</td>
+<td>151</td>
+<td>9</td>
+<td>94</td>
+<td>1.606383</td>
+<td>13.692476</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">4</td>
+<td>5</td>
+<td>Julian Wilson</td>
+<td>139</td>
+<td>9</td>
+<td>97</td>
+<td>1.432990</td>
+<td>13.477595</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">5</td>
+<td>6</td>
+<td>Jordy Smith</td>
+<td>142</td>
+<td>10</td>
+<td>107</td>
+<td>1.327103</td>
+<td>11.662912</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">6</td>
+<td>7</td>
+<td>John John Florence</td>
+<td>118</td>
+<td>9</td>
+<td>91</td>
+<td>1.296703</td>
+<td>10.001068</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">7</td>
+<td>8</td>
+<td>Italo Ferreira</td>
+<td>83</td>
+<td>5</td>
+<td>55</td>
+<td>1.509091</td>
+<td>9.873397</td>
+</tr>
+<tr class="odd">
+<td data-quarto-table-cell-role="th">8</td>
+<td>9</td>
+<td>Filipe Toledo</td>
+<td>96</td>
+<td>7</td>
+<td>75</td>
+<td>1.280000</td>
+<td>9.416957</td>
+</tr>
+<tr class="even">
+<td data-quarto-table-cell-role="th">9</td>
+<td>10</td>
+<td>Taj Burrow</td>
+<td>96</td>
+<td>7</td>
+<td>65</td>
+<td>1.476923</td>
+<td>8.731670</td>
 </tr>
 </tbody>
 </table>

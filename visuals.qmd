@@ -11,3 +11,10 @@ df = pd.read_csv("./data/tables/top_10_overall.csv")
 
 df
 ```
+
+
+```{python}
+df = pd.read_csv("./data/tables/top_10_filtered.csv")
+
+df
+```
