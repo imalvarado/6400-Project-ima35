@@ -1,0 +1,13 @@
+
+$\lambda_\omega(j) = \sum_{i \in N}\omega (j,i)$
+
+$\beta_i(\omega) = \sum_{j \in N}\dfrac{\omega(j,i)}{\lambda_\omega(j)}$
+
+
+```{python}
+import pandas as pd
+
+df = pd.read_csv("./data/tables/top_10_overall.csv")
+
+df
+```
